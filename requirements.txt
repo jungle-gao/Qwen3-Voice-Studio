@@ -1,0 +1,9 @@
+gradio>=4.0.0
+numpy
+soundfile
+librosa
+transformers
+accelerate
+sentencepiece
+# 注意：torch 建议使用 pip install torch --index-url ...cu121 手动安装
+# 注意：qwen-tts 建议使用 git+https://github.com/QwenLM/Qwen3-TTS.git 安装

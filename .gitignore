@@ -1,0 +1,17 @@
+# 忽略模型大文件
+Qwen3-Base/
+Qwen3-TTS-12Hz-1__7B-Base/
+*.mdl
+*.bin
+*.safetensors
+
+# 忽略用户隐私数据
+my_voices/
+recordings/
+*.wav
+*.mp3
+
+# 忽略系统文件
+__pycache__/
+*.pyc
+.vscode/
